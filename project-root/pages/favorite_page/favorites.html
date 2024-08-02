@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabajo Ricky y Morty</title>
+    <link rel="stylesheet" href="/project-root/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Reto Frontend - Nequi</h1>
+      <h2>Página web de Ricky y Morty</h2>
+    </header>
+    <hr />
+    <main>
+      <article>
+        <span id="page-info" class="page-info"></span>
+        <div id="pagination" class="pagination">
+          <button onclick="window.location.href='../../index.html'">
+            Volver
+          </button>
+        </div>
+        <div id="favorites" class="characters"></div>
+        <div id="pagination" class="pagination">
+          <button id="prev-button" class="button" disabled>
+            Página anterior
+          </button>
+          <button id="next-button" class="button" disabled>
+            Siguiente página
+          </button>
+        </div>
+      </article>
+    </main>
+    <hr />
+    <footer class="footer">
+      <p>Desarrollado por: Juan Pablo Carvajal Bustamante</p>
+      <p></p>
+      <p>Año:2024</p>
+    </footer>
+    <script src="../favorite_page/pageFavorites.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
